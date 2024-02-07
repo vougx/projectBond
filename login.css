@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
+
+.login_screen {
+  font-family: "Special Elite", cursive;
+}
+
+.background_video {
+  height: 100vh;
+  width: 100%;
+  /* 100% filmiku szerokosc */
+  position: absolute;
+  z-index: 1;
+  object-fit: cover;
+  filter: brightness(0.2);
+}
+
+.login_container {
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: ghostwhite;
+  text-align: center;
+  /* wszystko sie wycentrowalo */
+  max-width: 450px;
+}
+
+.login-title {
+  margin-bottom: 30px;
+}
+
+.login_paragraph {
+  margin-top: 24px;
+}

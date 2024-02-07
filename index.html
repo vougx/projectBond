@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link rel="stylesheet" type="text/css" href="login.css" />
+  </head>
+  <body>
+    <section class="login_screen">
+      <video
+        autoplay
+        loop
+        muted
+        class="background_video"
+        src="backVideo.mp4"
+      ></video>
+      <div class="login_container">
+        <img src="logo1.png" class="logo" alt="app logo" />
+        <h1 class="login-title">JAMES BONDS APP</h1>
+        <form>
+          <div class="input_container">
+            <label for="login_input"> AGENT ID</label>
+            <input id="login_input" />
+          </div>
+          <div class="input_container">
+            <label for="password_input"> PASSWORD</label>
+            <!-- PASSWORD: asd -->
+            <input id="password_input" type="password" />
+          </div>
+          <button type="button" id="login_button" class="btn">LOG IN</button>
+        </form>
+
+        <p class="error_text hidden" id="login_error">Incorrect data</p>
+        <p class="login_paragraph">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi, nemo
+          officia! Excepturi similique possimus, explicabo facere perferendis
+          asperiores eveniet delectus vel sint a harum iste, ipsam aliquam
+          aspernatur, mollitia neque.
+        </p>
+      </div>
+    </section>
+  </body>
+</html>

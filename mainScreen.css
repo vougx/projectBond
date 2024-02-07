@@ -1,0 +1,44 @@
+.logo {
+  height: 120px;
+}
+
+body {
+  background-image: url("background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  /* nie powtarza obrazka w wolnym miejscu obrazka */
+  background-size: cover;
+  min-height: 100vh;
+  /* 100vh wysokosc ekranu */
+  text-align: center;
+  color: ghostwhite;
+}
+
+#logoutBtn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.single_section {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 24px;
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+#map {
+  height: 500px;
+  width: 500px;
+  margin: auto;
+}
+
+#changeScreenBtn {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}

@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.input_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  width: 300px;
+  margin: auto;
+  margin-bottom: 12px;
+}
+
+.input_container input {
+  background: none;
+  border: none;
+  border-bottom: 2px solid ghostwhite;
+  color: white;
+  height: 20px;
+}
+
+.btn {
+  background: none;
+  border: none;
+  color: ghostwhite;
+  background-color: rgba(18, 170, 18, 0.489);
+  border: 2px solid rgba(8, 74, 8, 0.695);
+  padding: 10px 16px;
+  cursor: pointer;
+  /* zmiana buttona zeby zmienil sie kursor */
+}
+
+.error_text {
+  color: red;
+  margin-top: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+.logo {
+  height: 100px;
+}
